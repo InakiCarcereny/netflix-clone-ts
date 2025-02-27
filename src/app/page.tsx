@@ -1,3 +1,13 @@
+import { Header, Reasons, Trending } from '@/components';
+
 export default function Home() {
-  return <div>netflix clone ts</div>;
+  return (
+    <>
+      <Header />
+
+      <Trending />
+
+      <Reasons />
+    </>
+  );
 }
