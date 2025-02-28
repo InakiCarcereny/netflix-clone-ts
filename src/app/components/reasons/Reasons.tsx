@@ -1,12 +1,11 @@
 import { REASONS } from '@/lib';
 import { JSX } from 'react';
+import { Tittle } from '@/components/ui/tittle';
 
 export function Reasons(): JSX.Element {
   return (
     <section className='flex flex-col mx-auto max-w-[1524px] w-full min-h-[300px] gap-4 mt-8'>
-      <h3 className='text-white font-semibold text-2xl'>
-        More Reasons to Join
-      </h3>
+      <Tittle label='More Reasons to Join' />
 
       <ul className='grid grid-cols-4 gap-4 w-full'>
         {REASONS.map(

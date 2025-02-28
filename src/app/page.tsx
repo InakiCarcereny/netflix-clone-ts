@@ -1,4 +1,4 @@
-import { Header, Reasons, Trending } from '@/components';
+import { Footer, Header, Questions, Reasons, Trending } from '@/components';
 
 export default function Home() {
   return (
@@ -8,6 +8,10 @@ export default function Home() {
       <Trending />
 
       <Reasons />
+
+      <Questions />
+
+      <Footer />
     </>
   );
 }
