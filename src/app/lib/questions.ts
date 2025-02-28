@@ -7,7 +7,7 @@ export const QUESTIONS = [
   {
     question: 'How much does Netflix cost?',
     answer:
-      'Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ARS 4,299 to ARS 9,699 a month (pre-tax). No extra costs, no contracts.',
+      'Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from $5,99 to $10.99 a month (pre-tax). No extra costs, no contracts.',
   },
   {
     question: 'Where can I watch?',
