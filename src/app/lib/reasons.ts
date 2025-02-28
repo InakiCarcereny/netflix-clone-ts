@@ -24,4 +24,4 @@ export const REASONS = [
       'Send kids on adventures with their favorite characters in a space made just for them — free with your membership.',
     icon: Faces(),
   },
-];
+] as const;
