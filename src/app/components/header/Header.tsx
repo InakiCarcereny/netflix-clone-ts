@@ -1,5 +1,6 @@
 import { ArrowRight, Netflix } from '@/icons';
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 export function Header() {
   return (
@@ -15,7 +16,9 @@ export function Header() {
               Translate
             </button>
 
-            <Button label='Register' classNmame='text-sm' />
+            <Link href='/register'>
+              <Button label='Register' classNmame='text-sm cursor-pointer' />
+            </Link>
           </div>
         </header>
 
