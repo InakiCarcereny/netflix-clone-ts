@@ -6,3 +6,6 @@ export * from './Faces';
 export * from './Watcher';
 export * from './Plus';
 export * from './Cross';
+export * from './Search';
+export * from './Racoon';
+export * from './ArrowDown-2';
