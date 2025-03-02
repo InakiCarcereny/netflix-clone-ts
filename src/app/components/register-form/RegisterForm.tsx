@@ -7,7 +7,7 @@ import { useRouter } from 'next/navigation';
 import { FormValues } from '@/schemas/register';
 import registerSchema from '@/schemas/register';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { Input } from '../input';
+import { Input } from '@/components/input';
 
 export function RegisterForm() {
   const router = useRouter();

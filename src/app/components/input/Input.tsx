@@ -19,7 +19,7 @@ export function Input({ name, control, error, placeholder, type }: InputProps) {
           <input
             {...field}
             type={type}
-            className='px-4 py-4 rounded-[4px] border-zinc-200 border w-full text-white text-sm placeholder:text-zinc-300 placeholder:text-sm '
+            className='px-4 py-4 rounded-[4px] border-zinc-200 border w-full text-white text-sm placeholder:text-zinc-300 placeholder:text-sm'
             placeholder={placeholder}
           />
         )}
