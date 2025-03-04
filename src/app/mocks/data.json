@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Cars",
+    "description": "A cocky race car named Lightning McQueen learns the value of friendship and humility after getting stuck in a small town.",
+    "duration": "117 min",
+    "genre": "Animation, Adventure, Comedy",
+    "year": "2006",
+    "age": "All ages",
+    "poster": "/assets/films/cars.jpg",
+    "video": ""
+  },
+  {
+    "id": 2,
+    "title": "Toy Story",
+    "description": "A group of toys comes to life when humans are not around. Woody, a cowboy, feels threatened by the arrival of a new toy, Buzz Lightyear.",
+    "duration": "81 min",
+    "genre": "Animation, Adventure, Comedy",
+    "year": "1995",
+    "age": "All ages",
+    "poster": "/assets/films/toy-story.jpg",
+    "video": ""
+  },
+  {
+    "id": 3,
+    "title": "Finding Nemo",
+    "description": "A clownfish named Marlin crosses the ocean in search of his son Nemo, with the help of a forgetful but friendly fish named Dory.",
+    "duration": "100 min",
+    "genre": "Animation, Adventure, Comedy",
+    "year": "2003",
+    "age": "All ages",
+    "poster": "/assets/films/finding-nemo.jpg",
+    "video": ""
+  },
+  {
+    "id": 4,
+    "title": "The Incredibles",
+    "description": "A family of superheroes tries to live a normal life but is forced back into action when a new threat emerges.",
+    "duration": "115 min",
+    "genre": "Animation, Action, Adventure",
+    "year": "2004",
+    "age": "All ages",
+    "poster": "/assets/films/the-incredibles.jpg",
+    "video": ""
+  },
+  {
+    "id": 5,
+    "title": "Ratatouille",
+    "description": "Remy, a rat with a talent for cooking, dreams of becoming a chef in Paris and forms an unexpected alliance with a young cook.",
+    "duration": "111 min",
+    "genre": "Animation, Comedy, Family",
+    "year": "2007",
+    "age": "All ages",
+    "poster": "/assets/films/ratatouille.jpg",
+    "video": ""
+  },
+  {
+    "id": 6,
+    "title": "Up",
+    "description": "A widowed old man named Carl Fredricksen embarks on a journey in his flying house with an unexpected young explorer.",
+    "duration": "96 min",
+    "genre": "Animation, Adventure, Drama",
+    "year": "2009",
+    "age": "All ages",
+    "poster": "/assets/films/up.jpg",
+    "video": ""
+  },
+  {
+    "id": 7,
+    "title": "Wall-E",
+    "description": "In a distant future, a small garbage-collecting robot discovers love and a mission that could save humanity.",
+    "duration": "98 min",
+    "genre": "Animation, Adventure, Sci-Fi",
+    "year": "2008",
+    "age": "All ages",
+    "poster": "/assets/films/wall-e.jpg",
+    "video": ""
+  },
+  {
+    "id": 8,
+    "title": "Coco",
+    "description": "Miguel, a young music lover, accidentally travels to the Land of the Dead and discovers the truth about his family.",
+    "duration": "105 min",
+    "genre": "Animation, Adventure, Fantasy",
+    "year": "2017",
+    "age": "All ages",
+    "poster": "/assets/films/coco.jpg",
+    "video": ""
+  },
+  {
+    "id": 9,
+    "title": "Inside Out",
+    "description": "The story of Riley, a girl guided by her emotions—Joy, Sadness, Fear, Anger, and Disgust—during a major life change.",
+    "duration": "95 min",
+    "genre": "Animation, Comedy, Drama",
+    "year": "2015",
+    "age": "All ages",
+    "poster": "/assets/films/inside-out.jpg",
+    "video": ""
+  },
+  {
+    "id": 10,
+    "title": "Soul",
+    "description": "A jazz musician named Joe Gardner has an accident and finds himself in a dimension where souls develop their personalities before birth.",
+    "duration": "100 min",
+    "genre": "Animation, Adventure, Fantasy",
+    "year": "2020",
+    "age": "All ages",
+    "poster": "/assets/films/soul.jpg",
+    "video": ""
+  }
+]
