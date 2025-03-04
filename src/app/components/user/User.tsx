@@ -53,7 +53,7 @@ export function User() {
 
         <div className='bg-black/80 group-hover:flex hidden absolute top-10 w-[200px] right-1'>
           <span className='text-center text-white w-full py-2'>
-            close Session in Netflix
+            Close Session in Netflix
           </span>
         </div>
       </div>
