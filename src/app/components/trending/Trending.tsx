@@ -22,7 +22,7 @@ export function Trending() {
             <CarouselItem key={film.id} className='basis-1/7'>
               <button className='relative'>
                 <span className='text-black text-8xl absolute top-36 -left-5'>
-                  {film.id}.
+                  {film.id}
                 </span>
                 <img
                   className='rounded-lg h-[250px] w-[175px] object-cover'
