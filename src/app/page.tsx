@@ -1,4 +1,11 @@
-import { Footer, Header, Questions, Reasons, Trending } from '@/components';
+import {
+  FilmModal,
+  Footer,
+  Header,
+  Questions,
+  Reasons,
+  Trending,
+} from '@/components';
 
 export default function Home() {
   return (
@@ -12,6 +19,8 @@ export default function Home() {
       <Questions />
 
       <Footer />
+
+      <FilmModal />
     </>
   );
 }

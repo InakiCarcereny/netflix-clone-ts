@@ -1,5 +1,5 @@
 import { ArrowRight } from '@/icons';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/button/Button';
 
 export function Footer() {
   return (

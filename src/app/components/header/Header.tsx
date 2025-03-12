@@ -1,5 +1,5 @@
 import { ArrowRight, Netflix } from '@/icons';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/button/Button';
 import Link from 'next/link';
 
 export function Header() {
