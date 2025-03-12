@@ -9,6 +9,9 @@ export * from './register-form';
 export * from './nav';
 export * from './user';
 export * from './input';
+export * from './film-list';
+export * from './film';
+export * from './film-modal';
 
 export * from './ui/button';
 export * from './ui/tittle';
