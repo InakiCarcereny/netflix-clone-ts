@@ -1,9 +1,11 @@
 import { CarouselContent } from '../ui/carousel';
-
-import films from '@/mocks/data.json';
 import { Film } from '@/components/film';
+import films from '@/mocks/data.json';
 
-export function FilmList() {
+export default async function FilmList() {
+  //example if you want to use a service with suspense and fallback
+  // const films = (await getFilms('url')) as FilmProps[];
+
   return (
     <CarouselContent className='px-4 py-4'>
       {films.map((film) => (

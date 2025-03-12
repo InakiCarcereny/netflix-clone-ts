@@ -6,7 +6,7 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 
-import { FilmList } from '@/components/film-list';
+import FilmList from '@/components/film-list/FilmList';
 
 export function Trending() {
   return (
@@ -16,8 +16,8 @@ export function Trending() {
       <Carousel className='w-full max-w-[1500px] mx-auto'>
         <FilmList />
 
-        <CarouselPrevious className='h-[200px] bg-[#1e1e1e] text-white border-none hover:bg-[#272727] hover:text-white' />
-        <CarouselNext className='h-[200px] bg-[#1e1e1e] text-white border-none hover:bg-[#272727] hover:text-white' />
+        <CarouselPrevious className='h-[150px] bg-[#1e1e1e] text-white border-none hover:bg-[#272727] hover:text-white' />
+        <CarouselNext className='h-[150px] bg-[#1e1e1e] text-white border-none hover:bg-[#272727] hover:text-white' />
       </Carousel>
     </section>
   );

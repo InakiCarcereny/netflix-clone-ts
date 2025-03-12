@@ -35,13 +35,13 @@ export function FilmModal() {
 
               <ul className='flex items-center gap-2'>
                 <li className='bg-[#313030] text-white/60 px-2 py-1 rounded-[4px]'>
-                  {data.age}
+                  {data.year}
                 </li>
                 <li className='bg-[#313030] text-white/60 px-2 py-1 rounded-[4px]'>
                   {data.genre}
                 </li>
                 <li className='bg-[#313030] text-white/60 px-2 py-1 rounded-[4px]'>
-                  {data.year}
+                  {data.age}
                 </li>
               </ul>
 
