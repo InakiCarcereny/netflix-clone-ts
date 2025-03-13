@@ -1,15 +1,20 @@
-import { FormValues } from '@/schemas/register';
-import { Control, Controller, FieldError } from 'react-hook-form';
+import { Control, Controller, FieldError, Path } from 'react-hook-form';
 
-interface InputProps {
-  name: keyof FormValues;
-  control: Control<FormValues>;
+interface InputProps<T extends Record<string, string>> {
+  name: Path<T>;
+  control: Control<T>;
   type: string;
   error?: FieldError;
   placeholder?: string;
 }
 
-export function Input({ name, control, error, placeholder, type }: InputProps) {
+export function Input<T extends Record<string, string>>({
+  name,
+  control,
+  error,
+  placeholder,
+  type,
+}: InputProps<T>) {
   return (
     <>
       <Controller

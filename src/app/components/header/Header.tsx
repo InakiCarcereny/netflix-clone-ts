@@ -1,6 +1,7 @@
-import { ArrowRight, Netflix } from '@/icons';
+import { Netflix } from '@/icons';
 import { Button } from '@/components/ui/button/Button';
 import Link from 'next/link';
+import { LoginForm } from '@/components/login-form';
 
 export function Header() {
   return (
@@ -36,24 +37,11 @@ export function Header() {
             membership.
           </p>
 
-          <div className='flex items-center justify-center gap-2 max-w-[600px] w-full'>
-            <input
-              placeholder='Email'
-              type='text'
-              className='text-white text-sm flex items-center justify-center rounded-[4px] border-zinc-200 border px-4 py-3.5 w-full placeholder:text-zinc-300 placeholder:text-sm placeholder:font-semibold'
-            />
-
-            <Button
-              label='Login'
-              classNmame='text-2xl w-full'
-              icon={<ArrowRight />}
-            />
-          </div>
+          <LoginForm />
         </div>
       </div>
 
-      <div className='w-full text-red-400 border-2'></div>
-
+      <div className='w-full border-red-500 border-2'></div>
       <div className='absolute w-full h-full bg-black opacity-80 top-0 left-0 z-0'></div>
     </section>
   );
