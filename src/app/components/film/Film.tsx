@@ -17,7 +17,7 @@ export function Film({
   const { openModal } = useModalStore();
 
   return (
-    <CarouselItem key={id} className='basis-1/7'>
+    <CarouselItem key={id} className='basis-1/7 pl-9'>
       <button
         onClick={() =>
           openModal('film', {
@@ -39,7 +39,7 @@ export function Film({
           {id}
         </span>
         <img
-          className='rounded-lg h-[250px] w-[175px] object-cover'
+          className='rounded-lg h-[250px] w-[185px] object-cover'
           src={poster}
           alt={title}
         />

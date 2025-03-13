@@ -3,12 +3,10 @@
 
 import { ArrowRight, Cross } from '@/icons';
 import { useModalStore } from '@/store';
-import { Button } from '../ui/button/Button';
+import { Button } from '@/components/ui/button/Button';
 
 export function FilmModal() {
   const { isOpen, type, data, closeModal } = useModalStore();
-
-  console.log(data);
 
   return (
     <>
@@ -23,7 +21,7 @@ export function FilmModal() {
 
             <button
               onClick={closeModal}
-              className='text-white absolute top-4 right-4 cursor-pointer'
+              className='text-white absolute top-4 right-4 cursor-pointer px-0.5 py-0.5 rounded-full hover:bg-white/10 duration-100'
             >
               <Cross className='h-14 w-14' />
             </button>

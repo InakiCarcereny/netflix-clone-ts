@@ -12,6 +12,7 @@ export * from './input';
 export * from './film-list';
 export * from './film';
 export * from './film-modal';
+export * from './login-form';
 
 export * from './ui/button';
 export * from './ui/tittle';
