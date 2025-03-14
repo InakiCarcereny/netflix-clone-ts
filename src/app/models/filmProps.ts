@@ -1,6 +1,6 @@
 export interface FilmProps {
   id: number;
-  poster: string;
+  poster: string[];
   title: string;
   description: string;
   age: string;
