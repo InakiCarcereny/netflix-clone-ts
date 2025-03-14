@@ -31,7 +31,7 @@ export function Film({
             genre,
           })
         }
-        className='relative hover:scale-105 duration-150'
+        className='relative hover:scale-105 duration-150 cursor-pointer'
       >
         <span
           style={{ textShadow: '0px 0px 2px rgba(255,255,255, 1)' }}

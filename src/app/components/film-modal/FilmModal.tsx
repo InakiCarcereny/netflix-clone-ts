@@ -11,8 +11,6 @@ export function FilmModal() {
 
   const fontClass = (id: number) => fonts[id + 1];
 
-  console.log(data?.id);
-
   return (
     <>
       {isOpen && type === 'film' && data && (
@@ -31,9 +29,9 @@ export function FilmModal() {
               <Cross className='h-14 w-14' />
             </button>
 
-            <div className='px-10 py-10 flex flex-col gap-4'>
+            <div className='px-10 py-4 flex flex-col gap-4'>
               <h2
-                className={`text-white font-semibold text-6xl ${fontClass(data.id)}`}
+                className={`text-white font-semibold text-7xl ${fontClass(data.id)}`}
               >
                 {data.title}
               </h2>
@@ -43,17 +41,22 @@ export function FilmModal() {
                   {data.year}
                 </li>
                 <li className='bg-[#313030] text-white/60 px-2 py-1 rounded-[4px]'>
-                  {data.genre}
-                </li>
-                <li className='bg-[#313030] text-white/60 px-2 py-1 rounded-[4px]'>
                   {data.age}
                 </li>
+                {data.genre.map((genre) => (
+                  <li
+                    className='bg-[#313030] text-white/60 px-2 py-1 rounded-[4px]'
+                    key={genre}
+                  >
+                    {genre}
+                  </li>
+                ))}
               </ul>
 
               <p className='text-white/80 text-pretty'>{data.description}</p>
 
               <Button
-                label='Start Now'
+                label='Get Started'
                 icon={<ArrowRight />}
                 classNmame='max-w-[250px]'
               />

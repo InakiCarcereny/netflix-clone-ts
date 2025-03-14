@@ -5,5 +5,5 @@ export interface FilmProps {
   description: string;
   age: string;
   year: string;
-  genre: string;
+  genre: string[];
 }
