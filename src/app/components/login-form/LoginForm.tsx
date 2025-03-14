@@ -21,7 +21,9 @@ export function LoginForm() {
     resolver: zodResolver(loginSchema),
   });
 
-  const { storedValue } = useLocalStorage('values', {});
+  const { storedValue } = useLocalStorage('values', {
+    email: '',
+  });
 
   const onSubmit: SubmitHandler<FormValuesLogin> = (data) => {
     if (storedValue && storedValue.email === data.email) {
