@@ -37,7 +37,7 @@ export function Header() {
             membership.
           </p>
 
-          <LoginForm />
+          <LoginForm className='max-w-[600px]' />
         </div>
       </div>
 

@@ -10,7 +10,11 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import { useRouter } from 'next/navigation';
 
-export function LoginForm() {
+interface LoginFormProps {
+  className?: string;
+}
+
+export function LoginForm({ className }: LoginFormProps) {
   const router = useRouter();
 
   const {
@@ -36,18 +40,18 @@ export function LoginForm() {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className='flex items-center justify-center gap-2 max-w-[600px] w-full'
+      className={`flex items-center justify-center gap-2 w-full ${className}`}
     >
       <Input
         control={control}
         name='email'
         error={errors.email}
         type='text'
-        placeholder='Email'
+        placeholder='Email Address'
       />
 
       <Button
-        label='Login'
+        label='Get Started'
         classNmame='text-2xl w-full'
         icon={<ArrowRight />}
       />

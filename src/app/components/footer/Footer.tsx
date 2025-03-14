@@ -7,7 +7,7 @@ export function Footer() {
         Ready to watch? Enter your email to create or restart your membership.
       </p>
 
-      <LoginForm />
+      <LoginForm className='max-w-[800px]' />
     </footer>
   );
 }
