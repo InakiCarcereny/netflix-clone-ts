@@ -7,7 +7,7 @@ export default async function FilmList() {
   // const films = (await getFilms('url')) as FilmProps[];
 
   return (
-    <CarouselContent>
+    <CarouselContent className='py-4'>
       {films.map((film) => (
         <Film
           key={film.id}
