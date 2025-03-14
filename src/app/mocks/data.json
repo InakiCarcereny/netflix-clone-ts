@@ -7,7 +7,7 @@
     "genre": "Animation, Adventure, Comedy",
     "year": "2006",
     "age": "All ages",
-    "poster": "/assets/films/cars.jpg",
+    "poster": ["/assets/films/cars.jpg", "/assets/films/cars-2.jpg"],
     "video": ""
   },
   {
@@ -18,7 +18,7 @@
     "genre": "Animation, Adventure, Comedy",
     "year": "1995",
     "age": "All ages",
-    "poster": "/assets/films/toy-story.jpg",
+    "poster": ["/assets/films/toy-story.jpg", "/assets/films/toy-story-2.jpg"],
     "video": ""
   },
   {
@@ -29,7 +29,10 @@
     "genre": "Animation, Adventure, Comedy",
     "year": "2003",
     "age": "All ages",
-    "poster": "/assets/films/finding-nemo.jpg",
+    "poster": [
+      "/assets/films/finding-nemo.jpg",
+      "/assets/films/finding-nemo-2.jpg"
+    ],
     "video": ""
   },
   {
@@ -40,7 +43,10 @@
     "genre": "Animation, Action, Adventure",
     "year": "2004",
     "age": "All ages",
-    "poster": "/assets/films/the-incredibles.jpg",
+    "poster": [
+      "/assets/films/the-incredibles.jpg",
+      "/assets/films/the-incredibles-2.jpg"
+    ],
     "video": ""
   },
   {
@@ -51,7 +57,10 @@
     "genre": "Animation, Comedy, Family",
     "year": "2007",
     "age": "All ages",
-    "poster": "/assets/films/ratatouille.jpg",
+    "poster": [
+      "/assets/films/ratatouille.jpg",
+      "/assets/films/ratatouille-2.jpg"
+    ],
     "video": ""
   },
   {
@@ -62,7 +71,7 @@
     "genre": "Animation, Adventure, Drama",
     "year": "2009",
     "age": "All ages",
-    "poster": "/assets/films/up.jpg",
+    "poster": ["/assets/films/up.jpg", "/assets/films/up-2.jpg"],
     "video": ""
   },
   {
@@ -73,7 +82,7 @@
     "genre": "Animation, Adventure, Sci-Fi",
     "year": "2008",
     "age": "All ages",
-    "poster": "/assets/films/wall-e.jpg",
+    "poster": ["/assets/films/wall-e.jpg", "/assets/films/wall-e-2.jpg"],
     "video": ""
   },
   {
@@ -84,7 +93,7 @@
     "genre": "Animation, Adventure, Fantasy",
     "year": "2017",
     "age": "All ages",
-    "poster": "/assets/films/coco.jpg",
+    "poster": ["/assets/films/coco.jpg", "/assets/films/coco-2.jpg"],
     "video": ""
   },
   {
@@ -95,7 +104,10 @@
     "genre": "Animation, Comedy, Drama",
     "year": "2015",
     "age": "All ages",
-    "poster": "/assets/films/inside-out.jpg",
+    "poster": [
+      "/assets/films/inside-out.jpg",
+      "/assets/films/inside-out-2.jpg"
+    ],
     "video": ""
   },
   {
@@ -106,7 +118,7 @@
     "genre": "Animation, Adventure, Fantasy",
     "year": "2020",
     "age": "All ages",
-    "poster": "/assets/films/soul.jpg",
+    "poster": ["/assets/films/soul.jpg", "/assets/films/soul-2.jpg"],
     "video": ""
   }
 ]
