@@ -19,7 +19,7 @@ export default function HomeLayout({ children }: { children: ReactNode }) {
         </header>
       </section>
 
-      {children}
+      <main>{children}</main>
     </>
   );
 }
