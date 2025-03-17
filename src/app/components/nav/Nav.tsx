@@ -16,7 +16,7 @@ export function Nav() {
             <li
               className={`text-sm ${pathname === item.href ? 'font-semibold text-white' : 'text-white/70 hover:text-white/50 duration-150'}`}
             >
-              {item.label}
+              {item.label}.
             </li>
           </Link>
         ))}
