@@ -46,7 +46,7 @@ export function User() {
         </button>
       )}
 
-      <div className='flex items-center gap-2 group cursor-pointer relative'>
+      <div className='flex items-center gap-3 group cursor-pointer relative'>
         <Racoon className='w-8 h-8 text-white bg-green-800 rounded-[4px]' />
 
         <ArrowDown2 className='w-3 h-3 text-white group-hover:rotate-180 duration-300' />
