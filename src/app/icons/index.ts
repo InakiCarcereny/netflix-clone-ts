@@ -9,3 +9,5 @@ export * from './Cross';
 export * from './Search';
 export * from './Racoon';
 export * from './ArrowDown-2';
+export * from './Play';
+export * from './Info';
