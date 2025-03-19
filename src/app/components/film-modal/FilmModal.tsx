@@ -4,12 +4,10 @@
 import { ArrowRight, Cross } from '@/icons';
 import { useModalStore } from '@/store';
 import { Button } from '@/components/ui/button/Button';
-import { fonts } from '@/lib';
+import { fontClass } from '@/utils';
 
 export function FilmModal() {
   const { isOpen, type, data, closeModal } = useModalStore();
-
-  const fontClass = (id: number) => fonts[id + 1];
 
   return (
     <>
