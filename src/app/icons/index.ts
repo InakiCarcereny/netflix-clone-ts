@@ -11,3 +11,4 @@ export * from './Racoon';
 export * from './ArrowDown-2';
 export * from './Play';
 export * from './Info';
+export * from './Plus-2';
