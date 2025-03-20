@@ -9,7 +9,7 @@ interface ModalStore {
   data: FilmProps | null;
 }
 
-type ModalType = 'film';
+type ModalType = 'film' | 'info';
 
 export const useModalStore = create<ModalStore>((set) => ({
   isOpen: false,
