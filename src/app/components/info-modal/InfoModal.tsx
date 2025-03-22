@@ -60,7 +60,7 @@ export function InfoModal() {
                 </div>
 
                 <p className='text-base text-white/90 text-pretty font-light'>
-                  {data.description}
+                  {data.description}.
                 </p>
               </div>
 
